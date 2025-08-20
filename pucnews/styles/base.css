@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+#superbar{
+    background-color: black;
+    color: white;
+    min-height: 30px;
+}
+#wrapper{
+   /*border: 1px dotted pink;*/
+   width: 60%;
+   margin: 0 auto;  /*Descobrir o pq disto */
+}
+#header h1{
+   text-align: center;
+}
+#mainMenu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#mainMenu li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#mainMenu a{
+    color: black;
+}
+/* aqui podemos mudar a cor do link ao passar o mouse em*/
+#mainMenu a:hover{
+    color: cornflowerblue;
+}
+#mainMenu{
+    
+}
+#content{
+   background-color: blueviolet;
+}
+#footer{
+   background-color: aquamarine;
+}
