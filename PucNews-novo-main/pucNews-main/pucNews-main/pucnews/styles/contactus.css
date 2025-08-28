@@ -1,0 +1,51 @@
+@import "base.css";/*import do css*/
+
+#content{
+    background-color: #fffafa;;
+    letter-spacing: -0.35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    padding-top:0px;
+    height: 230px;
+    text-align: center;
+}
+
+#content p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold; /* Deixa o título do paragrafro negrito*/
+    letter-spacing: -0.5px;
+}
+#content input{
+    text-align: center;
+    width: 300px;
+    height: max-content;
+    border: 3px solid #b0aeae;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Terceira tarefa, deixa o form bonitin*/
+
+button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #838383;
+  }
+  
